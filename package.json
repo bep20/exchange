@@ -7,6 +7,7 @@
     "@binance-chain/bsc-connector": "^1.0.0",
     "@crowdin/crowdin-api-client": "^1.8.16",
     "@ethersproject/experimental": "^5.0.1",
+    "@pancakeswap/sdk": "^2.4.0",
     "@pancakeswap-libs/sdk": "1.0.1",
     "@pancakeswap-libs/uikit": "raphaeletb/unityswap-uikit",
     "@popperjs/core": "^2.4.4",
@@ -84,7 +85,7 @@
   },
   "scripts": {
     "start": "ncp uikit node_modules/@pancakeswap-libs/uikit && react-scripts start",
-    "build": "ncp uikit node_modules/@pancakeswap-libs/uikit && ncp sdk node_modules/@pancakeswap-libs/sdk && CI=false react-scripts build",
+    "build": "ncp uikit node_modules/@pancakeswap-libs/uikit && CI=false react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "lint": "eslint 'src/**/*.{js,jsx,ts,tsx}'",
