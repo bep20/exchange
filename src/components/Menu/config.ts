@@ -24,17 +24,17 @@ const config: MenuEntry[] = [
   {
     label: 'Farms',
     icon: 'FarmIcon',
-    href: 'https://www.unitydefi.com/farms',
+    href: '/farms',
   },
   {
     label: 'Pools',
     icon: 'PoolIcon',
-    href: 'https://www.unitydefi.com/pools',
+    href: '/pools',
   },
   {
     label: 'Referral',
     icon: 'ReferralIcon',
-    href: 'https://www.unitydefi.com/referral',
+    href: '/referral',
   },
 ]
 
